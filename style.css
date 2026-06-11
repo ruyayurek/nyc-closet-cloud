@@ -35,3 +35,11 @@ nav ul {
     margin-top: 20px;
     color: #8d8d98;
 }
+
+nav li {
+    transition: 0.3s ease;
+}
+
+nav li:hover {
+    opacity: 0.6;
+}
