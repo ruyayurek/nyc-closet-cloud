@@ -43,6 +43,11 @@ nav li {
 nav li:hover {
     opacity: 0.6;
 }
+
 .hero h1 {
     text-wrap: balance;
+}
+
+.category-strip {
+    user-select: none;
 }
