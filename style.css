@@ -51,3 +51,11 @@ nav li:hover {
 .category-strip {
     user-select: none;
 }
+
+.glass-word {
+    transition: 0.4s ease;
+}
+
+.glass-word:hover {
+    transform: scale(1.02);
+}
