@@ -67,3 +67,8 @@ body {
 nav h2 {
     user-select: none;
 }
+
+nav {
+    position: sticky;
+    top: 0;
+}
