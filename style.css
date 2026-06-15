@@ -72,3 +72,10 @@ nav {
     position: sticky;
     top: 0;
 }
+
+.city-tag {
+    margin-top: 18px;
+    color: #8d8d98;
+    font-size: 14px;
+    font-weight: 600;
+}
