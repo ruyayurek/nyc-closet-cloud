@@ -79,3 +79,35 @@ nav {
     font-size: 14px;
     font-weight: 600;
 }
+
+.featured-looks {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 50px 60px;
+}
+
+.look-card {
+    padding: 28px;
+    border-radius: 28px;
+    background: white;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.05);
+    transition: 0.3s ease;
+}
+
+.look-card:hover {
+    transform: translateY(-6px);
+}
+
+.look-card span {
+    color: #8d8d98;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.look-card h3 {
+    margin-top: 12px;
+    font-size: 24px;
+    line-height: 1.3;
+}
