@@ -16,6 +16,7 @@
 </head>
 
 <body>
+
     <div class="stars">
         <span></span><span></span><span></span><span></span><span></span>
         <span></span><span></span><span></span><span></span><span></span>
@@ -28,42 +29,101 @@
         <h2>NYC Closet Cloud</h2>
 
         <ul>
-            <p>Weekend Brunch</p>
             <li>Coffee Run</li>
             <li>Pilates Girl</li>
             <li>Soho Minimal</li>
             <li>Date Night</li>
+            <li>Weekend Brunch</li>
+            <li>Favorites</li>
         </ul>
     </nav>
 
     <section class="hero">
-        <h1>What are we wearing in NYC today?</h1>
+        <div class="hero-text">
+            <div class="weather">
+                ☀️ 78°F • Manhattan
+            </div>
 
-        <p>
-            Curated outfit inspiration for every New York mood.
-        </p>
+            <h1>What are we wearing in NYC today?</h1>
+
+            <p>
+                Curated outfit inspiration for coffee runs, Pilates mornings, Soho walks and downtown nights.
+            </p>
+
+            <div class="search-box">
+                <input type="text" placeholder="Search outfits, moods, or NYC plans...">
+                <button>Search</button>
+            </div>
+        </div>
+
+        <div class="glass-word">
+            OOTD
+        </div>
     </section>
+
+    <section class="category-strip">
+        <p>Coffee Run</p>
+        <p>Pilates Girl</p>
+        <p>Soho Minimal</p>
+        <p>Date Night</p>
+        <p>Rainy NYC</p>
+        <p>Weekend Brunch</p>
+    </section>
+
     <section class="featured-looks">
 
         <div class="look-card">
+            <div class="look-image"></div>
+
             <span>☕ Coffee Run</span>
             <h3>Oversized blazer + sneakers</h3>
+
+            <div class="tags">
+                <span>Neutral</span>
+                <span>Casual</span>
+                <span>Spring</span>
+            </div>
+
+            <button class="save-btn">♡ Save</button>
         </div>
 
         <div class="look-card">
+            <div class="look-image"></div>
+
             <span>🖤 Soho Minimal</span>
             <h3>Monochrome city uniform</h3>
+
+            <div class="tags">
+                <span>Black</span>
+                <span>Minimal</span>
+                <span>City</span>
+            </div>
+
+            <button class="save-btn">♡ Save</button>
         </div>
 
         <div class="look-card">
+            <div class="look-image"></div>
+
             <span>✨ Date Night</span>
             <h3>Effortless downtown elegance</h3>
+
+            <div class="tags">
+                <span>Night Out</span>
+                <span>Chic</span>
+                <span>Downtown</span>
+            </div>
+
+            <button class="save-btn">♡ Save</button>
         </div>
 
     </section>
+
     <div class="city-tag">
         📍 New York City
     </div>
+
+    <script src="script.js"></script>
 
 </body>
 
