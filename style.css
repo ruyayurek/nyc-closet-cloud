@@ -336,3 +336,7 @@ nav {
 .look-card h3 {
     letter-spacing: -0.5px;
 }
+
+nav ul li {
+    cursor: pointer;
+}
