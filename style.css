@@ -445,3 +445,10 @@ nav li:hover {
         font-size: 90px;
     }
 }
+
+.result-count {
+    margin-top: 18px;
+    color: #8d8d98;
+    font-size: 14px;
+    font-weight: 500;
+}

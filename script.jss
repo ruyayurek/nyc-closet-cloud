@@ -23,3 +23,6 @@ saveButtons.forEach(button => {
     background: #d8d4f2;
     color: #2b2b2b;
 }
+const resultCount = document.querySelector(".result-count");
+
+resultCount.textContent = `Showing ${document.querySelectorAll(".look-card").length} curated looks`;
