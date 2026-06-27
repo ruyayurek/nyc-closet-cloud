@@ -452,3 +452,11 @@ nav li:hover {
     font-size: 14px;
     font-weight: 500;
 }
+
+.look-image {
+    transition: 0.4s ease;
+}
+
+.look-card:hover .look-image {
+    transform: scale(1.04);
+}
