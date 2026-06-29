@@ -57,3 +57,25 @@ searchInput.addEventListener("input", () => {
         `Showing ${visibleCards} curated looks`;
 
 });
+const favoriteCount = document.getElementById("favorite-count");
+let favorites = 0;
+
+saveButtons.forEach(button => {
+
+    button.addEventListener("click", () => {
+
+        button.classList.toggle("saved");
+
+        if (button.classList.contains("saved")) {
+            favorites++;
+            button.textContent = "♥ Saved";
+        } else {
+            favorites--;
+            button.textContent = "♡ Save";
+        }
+
+        favoriteCount.textContent = favorites;
+
+    });
+
+});

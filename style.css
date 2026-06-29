@@ -468,3 +468,10 @@ nav li:hover {
     text-align: center;
     letter-spacing: 0.4px;
 }
+
+.today-weather {
+    margin-top: 22px;
+    color: #7b7b88;
+    font-weight: 600;
+    font-size: 15px;
+}
