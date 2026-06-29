@@ -460,3 +460,11 @@ nav li:hover {
 .look-card:hover .look-image {
     transform: scale(1.04);
 }
+
+.updated-text {
+    margin-top: 12px;
+    font-size: 12px;
+    color: #9b9ba7;
+    text-align: center;
+    letter-spacing: 0.4px;
+}
