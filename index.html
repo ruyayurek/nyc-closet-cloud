@@ -14,8 +14,37 @@
 
     <link rel="stylesheet" href="style.css">
 </head>
+<script>
+    const welcomeScreen = document.getElementById("welcome-screen");
+
+    window.addEventListener("load", () => {
+        document.body.style.overflow = "hidden";
+
+        setTimeout(() => {
+            document.body.style.overflow = "";
+        }, 4200);
+
+        setTimeout(() => {
+            welcomeScreen?.remove();
+        }, 5400);
+    });
+</script>
 
 <body>
+    <div id="welcome-screen">
+        <div class="pink-aura"></div>
+
+        <div class="floating-hearts">
+            <span>❤</span>
+            <span>❤</span>
+            <span>❤</span>
+            <span>❤</span>
+            <span>❤</span>
+            <span>❤</span>
+        </div>
+
+        <h1>Welcome to Our Closet ✨</h1>
+    </div>
     <div class="background-blobs">
         <div class="blob blob-one"></div>
         <div class="blob blob-two"></div>
@@ -149,5 +178,41 @@
     <script src="script.js"></script>
 
 </body>
+<div id="welcome-screen">
+    <div class="welcome-glow glow-one"></div>
+    <div class="welcome-glow glow-two"></div>
+
+    <div class="sparkles">
+        <span>✦</span>
+        <span>✧</span>
+        <span>✦</span>
+        <span>✧</span>
+        <span>✦</span>
+        <span>✧</span>
+    </div>
+
+    <div class="heart heart-one"></div>
+    <div class="heart heart-two"></div>
+    <div class="heart heart-three"></div>
+    <div class="heart heart-four"></div>
+    <div class="heart heart-five"></div>
+
+    <div class="welcome-content">
+        <p class="welcome-label">YOUR DIGITAL WARDROBE</p>
+
+        <h1>
+            Welcome to
+            <span>Our Closet</span>
+        </h1>
+
+        <p class="welcome-subtitle">
+            Style, organize and rediscover your favorite looks.
+        </p>
+
+        <div class="welcome-loader">
+            <div class="welcome-loader-fill"></div>
+        </div>
+    </div>
+</div>
 
 </html>
