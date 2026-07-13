@@ -487,3 +487,66 @@ nav li:hover {
     border-top: 1px solid #efefef;
     padding-top: 14px;
 }
+
+.background-blobs {
+    position: fixed;
+    inset: 0;
+    overflow: hidden;
+    pointer-events: none;
+    z-index: -1;
+}
+
+.blob {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(90px);
+    opacity: 0.28;
+    animation: float 18s ease-in-out infinite;
+}
+
+.blob-one {
+    width: 380px;
+    height: 380px;
+    background: #2ecc71;
+    top: -120px;
+    left: -80px;
+}
+
+.blob-two {
+    width: 420px;
+    height: 420px;
+    background: #4ade80;
+    bottom: -180px;
+    right: -100px;
+    animation-delay: 5s;
+}
+
+.blob-three {
+    width: 260px;
+    height: 260px;
+    background: #22c55e;
+    top: 45%;
+    left: 55%;
+    animation-delay: 9s;
+}
+
+@keyframes float {
+    0% {
+        transform: translate(0, 0) scale(1);
+    }
+
+    50% {
+        transform: translate(40px, -35px) scale(1.15);
+    }
+
+    100% {
+        transform: translate(0, 0) scale(1);
+    }
+}
+
+body {
+    background:
+        radial-gradient(circle at top left, rgba(46, 204, 113, 0.06), transparent 45%),
+        radial-gradient(circle at bottom right, rgba(74, 222, 128, 0.05), transparent 45%),
+        #f8faf8;
+}
